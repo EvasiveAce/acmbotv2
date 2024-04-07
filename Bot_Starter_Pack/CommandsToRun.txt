@@ -1,0 +1,53 @@
+# Loading the default cogs
+	
+	!load admin, alias, audio, bank, cleanup, customcom, downloader, economy, filter, general, image, mod, modlog, permissions, reports, streams, trivia, warnings
+
+# Configuring self role assignments:
+
+	!selfroleset add Information Technology
+	!selfroleset add Information Systems
+	!selfroleset add Computer Science
+	!selfroleset add Cybersecurity and Modern Networks
+	!selfroleset add Alumni
+	!selfroleset add ACM National Member
+	!selfroleset add Chapter Member
+	!selfroleset add off topic
+	!selfroleset add Chess Player
+	
+# After installing & loading "Welcome" cog by TrustyJiad from their Trusty-Cogs repository:
+	# (Search for "welcome" on https://index.discord.red/". Should be the 2nd result)
+	# (Addtional instructions for installing community cogs here: https://docs.discord.red/en/stable/getting_started.html?highlight=community%20cogs#community-cogs)
+		
+	## Turning welcome messages on
+	!welcomeset greeting toggle
+	
+	## Setting the welcome message to DM mode
+	!welcomeset whisper
+	
+	## Delete the default welcome message
+	!welcomeset greeting del
+	
+	## Setting welcome message
+	!welcomeset greeting add Welcome to {1.name}, {0.name}! Don't forget to choose some roles! Use the `!roles` command in the <#624666178677243914> channel to see the list of role commands.
+
+If you'd like to join as an ETSU ACM chapter member, you can do that here through our BucHub page: https://etsu.campuslabs.com/engage/organization/acm 
+The cost is $10, which can be paid to our treasurer at any meeting and is good for the whole year!
+
+If you'd like to join as a National ACM member, which includes ETSU chapter membership and a few other perks, you can do that here: https://www.acm.org/membership/join
+Student membership is $19 and is also good for a whole year.
+
+Of course, you're always welcome to stop by any of our meetings just to see what the club is about. We're happy to have you here!
+	
+	## This is very stupid. The bot deletes the welcome message after a while. Couldn't get it to stop
+	## so I just did this, with the idea that it would be more than enough time for the new user to read
+	## the DM'd welcome message.
+	!welcomeset greeting deleteafter 1000000000000
+	
+
+# Spotify and Youtube API setup:
+
+	## These commands provide instructions on setting this stuff up.
+	!audioset youtubeapi
+	!audioset spotifyapi	
+
+# I think this is it. Just get in contact with me if you run into any trouble! Always happy to help :)

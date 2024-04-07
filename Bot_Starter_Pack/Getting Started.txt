@@ -1,0 +1,15 @@
+1. Install Red
+	(https://docs.discord.red/en/stable/install_guides/index.html)
+
+2. Create a bot account (make sure to enable privileged intents!)
+	(https://docs.discord.red/en/stable/bot_application_guide.html)
+	
+3. Setting up auto-restart using systemd (Linux only)
+	(https://docs.discord.red/en/stable/autostart_systemd.html)
+
+4. Getting Started
+	(https://docs.discord.red/en/stable/getting_started.html)
+
+5. If all goes well you should be left with a working bot :) From here, move on to CommandsToRun.txt
+	
+	
